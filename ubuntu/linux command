@@ -1,6 +1,3 @@
-# myproject
-flask server with https or TLS on ubuntu v21
-
 
 #ref
 1.https://www.digitalocean.com/community/tutorials/how-to-serve-flask-applications-with-gunicorn-and-nginx-on-ubuntu-22-04
