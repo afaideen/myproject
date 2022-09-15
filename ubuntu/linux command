@@ -25,6 +25,9 @@ sudo systemctl start myproject
 sudo systemctl enable myproject
 sudo systemctl restart myproject
 
+##Install nginx
+sudo apt install nginx -y
+
 ##configure the nginx
 sudo nano /etc/nginx/sites-available/myproject
 
@@ -41,6 +44,10 @@ server {
 
 ##link in with the following command
 sudo ln -s /etc/nginx/sites-available/myproject /etc/nginx/sites-enabled
+
+##change the port to 81 in nginx default app:
+
+sudo nano /etc/nginx/sites-available/default
 
 ##test it!
 sudo nginx -t
